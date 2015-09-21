@@ -11,8 +11,8 @@ Bayesian spam filter to grey out unwanted posts and comments
 ## Usage
 You see % after the time stamp. That's the spam rating (higher -> spam, 0% -> no spam). Posts/comments with a rating higher than 50% will be greyed out gradually. However, to get a good estimation the word buckets need to be big enough. So there'll be misinterpretation in the beginning.
 
-* To mark a post/comment as spam -> hold ALT and click on it
-* To mark a post/comment as NON-spam -> hold ALT+SHIFT and click on it
+* To mark a post/comment as NON-spam -> hold ALT and click on it
+* To mark a post/comment as spam -> hold ALT+SHIFT and click on it
 
 There should be green/red feedback to the clicked post/comment. On every classification the words are added to the word buckets.
 
