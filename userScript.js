@@ -420,17 +420,17 @@ document.onkeypress = function(e){
             }
         }
     }
-    // ALT + p
-    if (e.which == 960){
+    // ALT + p: forgot what this is for
+    //if (e.which == 960){
         // https://www.spocal.net/api/2/conversations?limit=10
-        GM_xmlhttpRequest({
-            method: "GET",
-            url: "https://www.spocal.net/api/2/conversations?limit=20",
-            onload: function(response) {
-                console.log(response.responseText);
-            }
-        });
-    }
+      //  GM_xmlhttpRequest({
+        //    method: "GET",
+        //    url: "https://www.spocal.net/api/2/conversations?limit=20",
+         //   onload: function(response) {
+          //      console.log(response.responseText);
+    //        }
+     //   });
+    //}
     //console.log(e.which);
 }
 
