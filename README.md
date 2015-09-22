@@ -13,6 +13,14 @@ You see % after the time stamp. That's the spam rating (higher -> spam, 0% -> no
 
 * To mark a post/comment as NON-spam -> hold ALT and click on it
 * To mark a post/comment as spam -> hold ALT+SHIFT and click on it
+* ALT + i : install word buckets (there is a notification on how to install)
+* ALT + e : export buckets (json will be copied into post-text-field)
+* ALT + l : delete word buckets
+
+* ALT + h : go to stream / home
+* ALT + a : go to notifications
+* ALT + m : go to messages
+* ALT + y : switch between normal and anonymous mode
 
 There should be green/red feedback to the clicked post/comment. On every classification the words are added to the word buckets.
 
