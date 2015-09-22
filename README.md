@@ -21,7 +21,7 @@ You see % after the time stamp. That's the spam rating (higher -> spam, 0% -> no
 * ALT + a : go to notifications
 * ALT + m : go to messages
 * ALT + y : switch between normal and anonymous mode
-
+ 
 There should be green/red feedback to the clicked post/comment. On every classification the words are added to the word buckets.
 
 ## Issues
